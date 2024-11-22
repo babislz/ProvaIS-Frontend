@@ -60,7 +60,7 @@ function App() {
         <td className="px-6 py-4">{user.lastname}</td>
         <td className="px-6 py-4">R${user.salary}</td>
         <td class="px-6 py-4">
-          <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" onClick={() => {deleteUser(user.id)}}>Delete</a>
+          <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline" onClick={() => {deleteUser(user._id)}}>Delete</a>
         </td>
       </tr>
     ));
